@@ -1,5 +1,5 @@
 <div class="jumbotron text-center">
-  <h1>Coming Soon</h1>
+  <h1>{{headerMessage}}</h1>
 
 <br/><br/>
 
@@ -15,5 +15,8 @@
     </button>
   </div>
 </div>
+  {{#if responseMessage}}
+    <div class="alert alert-success">{{responseMessage}}</div>
+  {{/if}}
 <br/><br/>
 </div>
